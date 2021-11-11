@@ -1,0 +1,7 @@
+@import 'body.css';
+@import 'meteo.css';
+body{
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}

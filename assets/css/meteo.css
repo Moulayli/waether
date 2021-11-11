@@ -1,0 +1,29 @@
+.meteo{
+    /*
+    position: sticky;
+    top: 5%;
+    */
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: aliceblue;
+}
+
+.vent{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-left: 25%;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+    from {
+        margin-top: 26%;
+        width: 25%;
+    }
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}

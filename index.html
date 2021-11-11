@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="Fr">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>Meteo</title>
+ </head>
+ <body>
+     <div class="container-fluid fond">
+         <div class="meteo">
+           <h1 id="Temperature">  </h1>
+          <span id="Ciel"> Ciel degagé </span> <br>
+         <div>
+            Temp min : <span id="min">5 °</span> | Temp max : <span id="max">9 °</span>
+         </div>
+         <div>
+             Humidité : <span id="humidite"></span>
+         </div>
+         <div>
+            ville : <span id="ville"></span>
+        </div>
+         <div class="button">
+             <a id="button">Voir la méteo d'une ville</a>
+         </div>
+
+         </div>
+        <div class="row">
+            <div class="col-lg-9 col-sm-12 text-center" id="autre" data-point='0'>
+            </div>
+            <div>
+               
+            </div>
+        </div>
+     </div>
+     <script src="assets/js/meteo.js"></script>
+ </body>
+ </html>
