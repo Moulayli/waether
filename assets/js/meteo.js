@@ -2,7 +2,7 @@ function Main(ville) {
     let req = new XMLHttpRequest();
     let token="9d6eb00e81df4fc71bc62d7785b7cbfc";
     let villes=ville;
-    let url="http://api.openweathermap.org/data/2.5/weather?q="+villes+"&units=metric&lang=fr&APPID="+token;
+    let url="https://api.openweathermap.org/data/2.5/weather?q="+villes+"&units=metric&lang=fr&APPID="+token;
     req.open('GET', url);
     req.onreadystatechange = function() {
     if (req.readyState == 4 && req.status == 200) {
