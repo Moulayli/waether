@@ -1,6 +1,7 @@
 :root {
-  color-scheme: light;
+  color-scheme: light !important;
 }
+
 
 .fond{
     background: url('https://data.1freewallpapers.com/detail/anime-girl-during-sunset-4k-5k-anime-girl.jpg')  no-repeat fixed  ;
